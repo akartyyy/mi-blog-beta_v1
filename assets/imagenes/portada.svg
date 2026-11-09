@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+ <title id="title">GameLog</title><desc id="desc">Dos formas de disfrutar jugando</desc>
+ <defs><linearGradient id="g" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#143968"/><stop offset="1" stop-color="#4b277e"/></linearGradient></defs>
+ <rect width="960" height="480" rx="26" fill="url(#g)"/>
+ <circle cx="860" cy="0" r="300" fill="#ffffff" opacity=".06"/><circle cx="200" cy="450" r="300" fill="#ffffff" opacity=".05"/>
+ <g fill="#fff" font-family="Arial, Helvetica, sans-serif"><text x="60" y="88" font-size="26" font-weight="bold" letter-spacing="5" opacity=".9">INICIO</text>
+ <text x="60" y="183" font-size="62" font-weight="bold">GameLog</text>
+ <text x="60" y="238" font-size="27" opacity=".95">Dos formas de disfrutar jugando</text></g>
+ <g transform="translate(670 178) rotate(-8)"><rect x="-155" y="-65" width="310" height="188" rx="84" fill="#0d1931" stroke="#dae7ff" stroke-width="7"/><circle cx="-74" cy="24" r="45" fill="#253c64"/><rect x="-100" y="18" width="52" height="13" rx="6" fill="#fff"/><rect x="-80" y="-3" width="13" height="52" rx="6" fill="#fff"/><circle cx="73" cy="-11" r="14" fill="#7bf3dd"/><circle cx="113" cy="22" r="14" fill="#ffe391"/><circle cx="72" cy="57" r="14" fill="#ffc6df"/></g>
+ <rect x="60" y="340" width="205" height="7" rx="4" fill="#f5e5a3"/><text x="60" y="405" fill="#e9f0ff" font-family="Arial,Helvetica,sans-serif" font-size="23">GAMELOG · BLOG DE VIDEOJUEGOS</text>
+</svg>

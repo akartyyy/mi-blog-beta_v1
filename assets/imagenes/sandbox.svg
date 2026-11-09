@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="480" viewBox="0 0 960 480" role="img" aria-labelledby="title desc">
+ <title id="title">Sandbox</title><desc id="desc">Explorar y crear sin límites</desc>
+ <defs><linearGradient id="g" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#29538b"/><stop offset="1" stop-color="#5d3c9b"/></linearGradient></defs>
+ <rect width="960" height="480" rx="26" fill="url(#g)"/>
+ <circle cx="860" cy="0" r="300" fill="#ffffff" opacity=".06"/><circle cx="200" cy="450" r="300" fill="#ffffff" opacity=".05"/>
+ <g fill="#fff" font-family="Arial, Helvetica, sans-serif"><text x="60" y="88" font-size="26" font-weight="bold" letter-spacing="5" opacity=".9">CATEGORÍA 02</text>
+ <text x="60" y="183" font-size="62" font-weight="bold">Sandbox</text>
+ <text x="60" y="238" font-size="27" opacity=".95">Explorar y crear sin límites</text></g>
+ <g transform="translate(620 142)"><path d="M0,50 L110,0 L220,50 L110,100Z" fill="#a0e7ff"/><path d="M0,50 L110,100 L110,216 L0,164Z" fill="#3284c3"/><path d="M220,50 L110,100 L110,216 L220,164Z" fill="#215f96"/><path d="M135,0 L225,-41 L305,0 L214,42Z" fill="#9df4bd"/><path d="M214,42 L305,0 L305,107 L214,147Z" fill="#3b9f7b"/><path d="M135,0 L214,42 L214,147 L135,102Z" fill="#57c78f"/><rect x="5" y="142" width="34" height="34" fill="#b0e3ff" opacity=".8"/></g>
+ <rect x="60" y="340" width="205" height="7" rx="4" fill="#f5e5a3"/><text x="60" y="405" fill="#e9f0ff" font-family="Arial,Helvetica,sans-serif" font-size="23">GAMELOG · BLOG DE VIDEOJUEGOS</text>
+</svg>

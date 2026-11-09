@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog sobre videojuegos de fútbol y sandbox: EA SPORTS FC y Minecraft.">
+  <meta name="author" content="GameLog - Proyecto académico">
+  <title>Inicio | GameLog</title>
+  <!-- Hoja de estilos externa se incorporará en la actividad de la semana 3. -->
+</head>
+<body>
+  <!-- Encabezado compartido por las cinco páginas -->
+  <header>
+    <h1>GameLog</h1>
+    <p>Blog de videojuegos: fútbol, aventuras y creatividad.</p>
+  </header>
+
+  <!-- Menú jerárquico de tres niveles: inicio / categoría / subcategoría. -->
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="index.html" aria-current="page">Inicio</a>
+        <ul>
+          <li><a href="categoria1/futbol.html">Categoría: Juegos de fútbol</a>
+            <ul>
+              <li><a href="categoria1/ea-sports-fc.html">Subcategoría: EA SPORTS FC</a></li>
+            </ul>
+          </li>
+          <li><a href="categoria2/sandbox.html">Categoría: Juegos sandbox</a>
+            <ul>
+              <li><a href="categoria2/minecraft.html">Subcategoría: Minecraft</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="contenido-principal">
+    <p><small>Inicio</small></p>
+    <section aria-labelledby="bienvenida">
+      <h2 id="bienvenida">Bienvenida a GameLog</h2>
+      <figure><img src="assets/imagenes/portada.svg" alt="Ilustración original de un control de videojuegos sobre un fondo azul y violeta" width="720" height="360"><figcaption>Portada del blog de videojuegos GameLog.</figcaption></figure>
+      <p>Este blog es para quienes disfrutan tanto los partidos intensos como la libertad de crear sus propios mundos. Reunimos dos categorías de videojuegos muy diferentes: <strong>fútbol</strong> y <strong>sandbox</strong>.</p>
+      <p>En cada categoría encontrarás una presentación general y un artículo destacado. Puedes recorrerlas con el menú de navegación que aparece en todas las páginas.</p>
+    </section>
+    <section aria-labelledby="categorias">
+      <h2 id="categorias">Explora las categorías</h2>
+      <article>
+        <h3>1. Juegos de fútbol</h3>
+        <figure><img src="assets/imagenes/futbol.jpg" alt="Ilustración de fifa 27" width="720" height="360"><figcaption>Categoría de videojuegos de fútbol.</figcaption></figure>
+        <p>Una alternativa para quienes disfrutan competir, construir equipos y buscar la mejor jugada. Nuestro artículo destacado trata sobre EA SPORTS FC.</p>
+        <p><a href="categoria1/futbol.html">Conocer la categoría de fútbol</a></p>
+      </article>
+      <article>
+        <h3>2. Juegos sandbox</h3>
+        <figure><img src="assets/imagenes/minecraft.avif" alt="Minecraft" width="720" height="360"><figcaption>Categoría de videojuegos sandbox.</figcaption></figure>
+        <p>En este tipo de videojuegos la imaginación es protagonista: puedes explorar, crear y definir tus propios objetivos. Nuestro ejemplo destacado es Minecraft.</p>
+        <p><a href="categoria2/sandbox.html">Conocer la categoría sandbox</a></p>
+      </article>
+    </section>
+    <section aria-labelledby="comparar">
+      <h2 id="comparar">¿Qué tipo de videojuego prefieres?</h2>
+      <table>
+        <caption>Comparación general entre las dos categorías del blog</caption>
+        <thead><tr><th scope="col">Característica</th><th scope="col">Fútbol</th><th scope="col">Sandbox</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Objetivo principal</th><td>Competir y ganar partidos</td><td>Explorar, construir y experimentar</td></tr>
+          <tr><th scope="row">Habilidades</th><td>Reflejos y estrategia</td><td>Creatividad y planificación</td></tr>
+          <tr><th scope="row">Juego destacado</th><td><a href="categoria1/ea-sports-fc.html">EA SPORTS FC</a></td><td><a href="categoria2/minecraft.html">Minecraft</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section aria-labelledby="video-blog">
+      <h2 id="video-blog">Presentación del blog</h2>
+      <p>Video original de presentación de FC27</p>
+      <video controls preload="metadata" width="640" height="360" poster="assets/imagenes/portada.svg" aria-label="Video de presentación de GameLog">
+        <source src="assets/video/fc27_presentacion.mp4" type="video/mp4">
+        Tu navegador no admite video HTML5. Puedes <a href="assets/video/presentacion-gamelog.mp4">abrir el archivo de video</a>.
+      </video>
+    </section>
+    <section aria-labelledby="audio-blog">
+      <h2 id="audio-blog">Audio de bienvenida</h2>
+      <p>Escucha una breve melodía electrónica original creada para acompañar la presentación del blog.</p>
+      <audio controls preload="none">
+        <source src="assets/audio/intro-gamelog.mp3" type="audio/mpeg">
+        Tu navegador no admite audio HTML5. Puedes <a href="assets/audio/intro-gamelog.mp3">abrir el audio</a>.
+      </audio>
+    </section>
+    <section aria-labelledby="encuesta">
+      <h2 id="encuesta">Encuesta: tus preferencias</h2>
+      <p>Formulario de práctica para aplicar las etiquetas semánticas de HTML. No envía información a un servidor.</p>
+      <form action="#encuesta" method="get">
+        <p><label for="nombre">Nombre:</label> <input id="nombre" name="nombre" type="text" maxlength="60" autocomplete="name" required></p>
+        <p><label for="correo">Correo electrónico:</label> <input id="correo" name="correo" type="email" autocomplete="email" required></p>
+        <p><label for="preferencia">¿Qué categoría prefieres?</label>
+          <select id="preferencia" name="preferencia" required>
+            <option value="">Elige una categoría</option>
+            <option value="futbol">Juegos de fútbol</option>
+            <option value="sandbox">Juegos sandbox</option>
+          </select>
+        </p>
+        <p><label for="comentario">Cuéntanos por qué:</label><br><textarea id="comentario" name="comentario" rows="4" cols="45" maxlength="600"></textarea></p>
+        <p><button type="submit">Probar formulario</button></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página común y enlaces de retorno -->
+  <footer>
+    <hr>
+    <p>GameLog · Proyecto de Diseño Web Básico · Duoc UC</p>
+    <p><a href="index.html">Volver al inicio</a> · <a href="#contenido-principal">Ir al contenido</a></p>
+  </footer>
+</body>
+</html>
