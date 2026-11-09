@@ -6,13 +6,14 @@
   <meta name="description" content="Blog sobre videojuegos de fútbol y sandbox: EA SPORTS FC y Minecraft.">
   <meta name="author" content="GameLog - Proyecto académico">
   <title>Inicio | GameLog</title>
-  <!-- Hoja de estilos externa se incorporará en la actividad de la semana 3. -->
+  <!-- Hoja de estilos externa compartida por las cinco páginas. -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <!-- Encabezado compartido por las cinco páginas -->
   <header>
-    <h1>GameLog</h1>
-    <p>Blog de videojuegos: fútbol, aventuras y creatividad.</p>
+    <h1 class="titulo-blog">GameLog</h1>
+    <p class="subtitulo-blog">Blog de videojuegos: fútbol, aventuras y creatividad.</p>
   </header>
 
   <!-- Menú jerárquico de tres niveles: inicio / categoría / subcategoría. -->
@@ -35,11 +36,11 @@
     </ul>
   </nav>
 
-  <main id="contenido-principal">
+  <main id="contenido-principal" class="contenido">
     <p><small>Inicio</small></p>
     <section aria-labelledby="bienvenida">
       <h2 id="bienvenida">Bienvenida a GameLog</h2>
-      <figure><img src="assets/imagenes/portada.svg" alt="Ilustración original de un control de videojuegos sobre un fondo azul y violeta" width="720" height="360"><figcaption>Portada del blog de videojuegos GameLog.</figcaption></figure>
+      <figure><img src="assets/imagenes/portada.svg" alt="Ilustración de un control de videojuegos sobre un fondo azul y violeta" width="720" height="360"><figcaption>Portada del blog de videojuegos GameLog.</figcaption></figure>
       <p>Este blog es para quienes disfrutan tanto los partidos intensos como la libertad de crear sus propios mundos. Reunimos dos categorías de videojuegos muy diferentes: <strong>fútbol</strong> y <strong>sandbox</strong>.</p>
       <p>En cada categoría encontrarás una presentación general y un artículo destacado. Puedes recorrerlas con el menú de navegación que aparece en todas las páginas.</p>
     </section>
@@ -47,13 +48,13 @@
       <h2 id="categorias">Explora las categorías</h2>
       <article>
         <h3>1. Juegos de fútbol</h3>
-        <figure><img src="assets/imagenes/futbol.jpg" alt="Ilustración de fifa 27" width="720" height="360"><figcaption>Categoría de videojuegos de fútbol.</figcaption></figure>
+        <figure><img src="assets/imagenes/futbol.jpg" alt="Imagen promocional de EA SPORTS FC 27 Lite con un futbolista sobre la cancha" width="640" height="360"><figcaption>Categoría de videojuegos de fútbol.</figcaption></figure>
         <p>Una alternativa para quienes disfrutan competir, construir equipos y buscar la mejor jugada. Nuestro artículo destacado trata sobre EA SPORTS FC.</p>
         <p><a href="categoria1/futbol.html">Conocer la categoría de fútbol</a></p>
       </article>
       <article>
         <h3>2. Juegos sandbox</h3>
-        <figure><img src="assets/imagenes/minecraft.avif" alt="Minecraft" width="720" height="360"><figcaption>Categoría de videojuegos sandbox.</figcaption></figure>
+        <figure><img src="assets/imagenes/minecraft.avif" alt="Escena del mundo de Minecraft con montañas, vegetación y construcciones de bloques" width="640" height="360"><figcaption>Categoría de videojuegos sandbox.</figcaption></figure>
         <p>En este tipo de videojuegos la imaginación es protagonista: puedes explorar, crear y definir tus propios objetivos. Nuestro ejemplo destacado es Minecraft.</p>
         <p><a href="categoria2/sandbox.html">Conocer la categoría sandbox</a></p>
       </article>
@@ -71,12 +72,19 @@
       </table>
     </section>
     <section aria-labelledby="video-blog">
-      <h2 id="video-blog">Presentación del blog</h2>
-      <p>Video original de presentación de FC27</p>
-      <video controls preload="metadata" width="640" height="360" poster="assets/imagenes/portada.svg" aria-label="Video de presentación de GameLog">
-        <source src="assets/video/fc27_presentacion.mp4" type="video/mp4">
-        Tu navegador no admite video HTML5. Puedes <a href="assets/video/presentacion-gamelog.mp4">abrir el archivo de video</a>.
-      </video>
+      <h2 id="video-blog">Tráiler de EA SPORTS FC 26</h2>
+      <p>Mira el tráiler oficial de EA SPORTS FC 26 publicado en el canal de EA SPORTS FC en YouTube.</p>
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/TSi0iJYSQ24"
+        title="Tráiler oficial de presentación de EA SPORTS FC 26"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+      <p><a href="https://www.youtube.com/watch?v=TSi0iJYSQ24" target="_blank" rel="noopener noreferrer">Ver el tráiler directamente en YouTube</a>.</p>
     </section>
     <section aria-labelledby="audio-blog">
       <h2 id="audio-blog">Audio de bienvenida</h2>
